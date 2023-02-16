@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Rubik:wght@300;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    padding: 0 54px 0 77px;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 56px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #818487;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    color: aliceblue;
+}
+
+.btn {
+    width: 111px;
+    height: 34px;
+    background: #279DE0;
+    border-radius: 7px;
+    transition: .4s;
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #12699b;
+}
+
+.motto {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-top: 167px;
+}
+
+.motto-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+}
+
+.button-blue {
+    width: 202px;
+    height: 56px;
+    background: #279DE0;
+    border-radius: 7px;
+    transition: .4s;
+    cursor: pointer;
+    margin-right: 40px;
+    transition: .4s;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.button-blue:hover {
+    background-color: #12699b;
+}
+
+
+.svg-item {
+    margin-right: 16px;
+}
+
+.button-text {
+    margin-top: 14px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: .4s;
+
+}
+
+.button-text:hover {
+    color: #818487;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.right-img {
+   margin-top: 30px;
+}
+
+.brand-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #79797A;
+}
+
